@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.sqlite3-journal
+venv/
+.venv/
+env/
+ENV/
+
+# Django generated files
+/backend/staticfiles/
+/backend/media/
+/backend/*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies/build output
+node_modules/
+frontend/dist/
+frontend/build/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test / coverage / cache
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Keep docs/screenshots/*.png tracked.

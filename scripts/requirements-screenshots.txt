@@ -1,0 +1,2 @@
+# Optional dependency for capturing the real application in a local browser.
+playwright>=1.45,<2
